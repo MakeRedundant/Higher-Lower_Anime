@@ -164,7 +164,7 @@ export default function Game() {
       ) : (
         <>
           <h1 className={styles.prompt}>
-            Which Anime Has More Fans (according to MyAnimeList.net)?
+            Which Anime is more popular? (according to MyAnimeList)
           </h1>
           <div>{width <= mobileThreshold && gameover && gameoverElem}</div>
           <h2 className={styles.score}>
