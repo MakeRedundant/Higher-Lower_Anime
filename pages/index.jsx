@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Footer from "@components/Footer/Footer";
-// import GoogleAnalyticsHook from "@components/GoogleAnalyticsHook";
 import Game from "@components/Game/Game";
 import About from "@components/About/About";
 import Intro from "@components/Intro/Intro";
@@ -9,9 +8,8 @@ import Intro from "@components/Intro/Intro";
 export default function Home() {
   return (
     <>
-      {/* <GoogleAnalyticsHook /> */}
       <Head>
-        <title>Ichiban</title>
+        <title>Higher or Lower Weeb Edition</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Ichiban" />
         <meta property="og:type" content="website" />
@@ -22,9 +20,9 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="An anime popularity guessing game!"
+          content="An anime popularity game!"
         />
-        <meta name="Description" content="An anime popularity guessing game!" />
+        <meta name="Description" content="An anime popularity game!" />
       </Head>
       <Intro />
       <Game />

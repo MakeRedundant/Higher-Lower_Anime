@@ -41,13 +41,13 @@ export default function Game() {
   const { height, width } = useWindowDimensions();
 
   const shuffleRandList = () => {
-    //make an array filled from 0 to pagesToGet * 25
+    //Makes an array filled from 0 to pagesToGet * 25
     let tempArr = Array.from(Array(pagesToGet * 25).keys());
     setRandList(shuffle(tempArr));
     setLoading(false);
   };
   useEffect(() => {
-    //reset game
+    //Resets game
     if (resetGame) {
       shuffleRandList();
       setScore(0);
@@ -57,14 +57,14 @@ export default function Game() {
     }
   }, [resetGame]);
 
-  //fill up pool with anime
+  //Fill up pool with anime
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch(`https://api.jikan.moe/v4/top/anime?type=tv&filter=bypopularity&page=${page}`);
         const data = await response.json();
         setPool((prevPool) => prevPool.concat(data.data));
-        //recursively call again to get more pages
+        //Recursively calls again to get more pages
         if (page < pagesToGet) setPage((prevPage) => prevPage + 1);
         else shuffleRandList();
       } catch (error) {
@@ -74,7 +74,7 @@ export default function Game() {
     fetchData();
   }, [page]);
 
-  //get global high score
+  //Gets global high score
   useEffect(() => {
     const highscoreData = localStorage.getItem('highscore');
     if (highscoreData) {
@@ -132,7 +132,7 @@ export default function Game() {
           higher: !champHigher,
         };
       });
-      //guessed correctly
+      // Guess Correctly
       if (isChamp == champHigher) {
         setChampIndex((prevChamp) => prevChamp + 1);
         setScore((prevScore) => prevScore + 1);
@@ -152,15 +152,15 @@ export default function Game() {
 
   const gameoverElem = (
     <div className={styles.gameoverElem} onClick={() => setResetGame(true)}>
-      <div className={styles.gameoverLabel}>Game Over</div>
-      <div className={styles.gameoverBtn}>Press to play again</div>
+      <div className={styles.gameoverLabel}>Game Over 🏁</div>
+      <div className={styles.gameoverBtn}>Press to play again 🎲</div>
     </div>
   );
 
   return (
     <main>
       {loading ? (
-        <div>Loading...</div>
+        <div>Loading... 💤 💤 💤</div>
       ) : (
         <>
           <h1 className={styles.prompt}>
@@ -168,10 +168,10 @@ export default function Game() {
           </h1>
           <div>{width <= mobileThreshold && gameover && gameoverElem}</div>
           <h2 className={styles.score}>
-            Your High Score : {highscore}
+            Your High Score 🏆 : {highscore}
           </h2>
           <h2 className={styles.score}>
-            Current Score: {score}
+            Current Score 🎖️ : {score}
           </h2>
           <div className={styles.battlefield}>
             {
