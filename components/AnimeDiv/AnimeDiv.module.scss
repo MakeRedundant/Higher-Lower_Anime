@@ -1,0 +1,33 @@
+.animeContainer {
+  width: 45%;
+  height: 50vh;
+}
+
+.clickableRegion {
+  margin: auto;
+  width: fit-content;
+}
+
+.clickableRegion:hover {
+  cursor: pointer;
+}
+
+.animeImg {
+  max-width: 100%;
+  max-height: 70%;
+}
+
+.fanCount {
+  font-size: 150%;
+}
+
+.neutral {
+  color: white;
+}
+.higher {
+  color: greenyellow;
+}
+
+.lower {
+  color: red;
+}
