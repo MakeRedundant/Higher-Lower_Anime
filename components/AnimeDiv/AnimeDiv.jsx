@@ -3,7 +3,7 @@ export default function AnimeDiv({ obj, clickCallback, gameover }) {
   var numeral = require("numeral");
   var fanCount = numeral(obj.members).format("0.00a");
 
-  const imageUrl = obj.images?.jpg.image_url;
+  const imageUrl = obj.images?.webp.image_url;
   return (
     <div className={styles.animeContainer}>
       <div className={styles.clickableRegion} onClick={clickCallback}>
