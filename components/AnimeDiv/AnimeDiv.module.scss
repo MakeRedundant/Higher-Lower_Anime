@@ -1,5 +1,5 @@
 .animeContainer {
-  width: 45%;
+  width: 50%;
   height: 50vh;
 }
 
@@ -15,15 +15,21 @@
 .animeImg {
   max-width: 100%;
   max-height: 70%;
+  transition: transform 0.3s ease;
+}
+
+.animeContainer:hover .animeImg {
+  transform: scale(1.05);
 }
 
 .fanCount {
-  font-size: 150%;
+  font-size: 200%;
 }
 
 .neutral {
   color: white;
 }
+
 .higher {
   color: greenyellow;
 }
