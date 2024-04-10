@@ -12,9 +12,21 @@ https://higher-lower-anime.vercel.app
 ![](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
-![Inquirer Version](https://img.shields.io/badge/Inquirer-8.2.4-blue.svg)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-yellow.svg)
-![File System](https://img.shields.io/badge/File%20System-Implemented-green.svg)
+![Node.js](https://img.shields.io/badge/Node.js-18.2.0-green.svg)
+![Font Awesome (React)](https://img.shields.io/badge/Font%20Awesome%20(React)-18.2.0-red.svg)
+![React](https://img.shields.io/badge/React-18.2.0-blue.svg)
+![React DOM](https://img.shields.io/badge/React%20DOM-18.2.0-blue.svg)
+![React Icons](https://img.shields.io/badge/React%20Icons-18.2.0-blue.svg)
+![ESLint](https://img.shields.io/badge/ESLint-18.2.0-green.svg)
+![axios](https://img.shields.io/badge/axios-0.21.1-black.svg)
+![next](https://img.shields.io/badge/next-14.1.4-brown.svg)
+![numeral](https://img.shields.io/badge/numeral-2.0.6-silver.svg)
+![sass](https://img.shields.io/badge/sass-1.32.8-pink.svg)
+![shuffle-array](https://img.shields.io/badge/shuffle--array-1.0.1-white.svg)
+![Yarn](https://img.shields.io/badge/Yarn-18.2.0-orange.svg)
+![Vercel](https://img.shields.io/badge/Vercel-18.2.0-purple.svg)
+
 
 ## 📓 Table of Contents
 - [Higher or Lower Anime edition](#higher-or-lower-anime-edition)
@@ -34,31 +46,29 @@ https://higher-lower-anime.vercel.app
 ## 💡🏡 Lighthouse
 This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
 
-
 ## 🪛 Technologies used 
-| Technology              | Description                           | Link                                       |
-|-------------------------|---------------------------------------|--------------------------------------------|
-| Node.js                 | Server-side JavaScript runtime         | [Node.js](https://nodejs.org/)             |
-| NPM                     | Node.js Package Manager               | [NPM](https://www.npmjs.com/)             |
-| Font Awesome            | Icon set and toolkit                  | [Font Awesome](https://fontawesome.com/)   |
-| Font Awesome (React)    | Font Awesome for React components     | [Font Awesome (React)](https://fontawesome.com/) |
-| EmailJS                 | Email delivery service                 | [EmailJS](https://www.emailjs.com/)       |
-| EmailJS (Com)           | Email service for developers          | [EmailJS (Com)](https://www.emailjs.com/) |
-| React                   | JavaScript library for building UIs   | [React](https://reactjs.org/)             |
-| React DOM               | React rendering for the DOM           | [React DOM](https://reactjs.org/)         |
-| React Icons             | SVG icon library for React            | [React Icons](https://react-icons.github.io/react-icons/) |
-| React Simple Typewriter | React component for typewriter effect | [React Simple Typewriter](https://www.npmjs.com/package/react-simple-typewriter) |
-| Semantic UI CSS         | Front-end framework                   | [Semantic UI CSS](https://semantic-ui.com/) |
-| Semantic UI React       | React integration for Semantic UI      | [Semantic UI React](https://react.semantic-ui.com/) |
-| SweetAlert2             | Alert library for JavaScript          | [SweetAlert2](https://sweetalert2.github.io/) |
-| Vite (Plugin React)     | Vite plugin for React apps            | [Vite (Plugin React)](https://github.com/vitejs/vite) |
-| ESLint                  | JavaScript linter                     | [ESLint](https://eslint.org/)             |
-| ESLint (Plugin React)   | ESLint plugin for React               | [ESLint (Plugin React)](https://eslint.org/) |
-| ESLint (Plugin React Hooks) | ESLint plugin for React Hooks      | [ESLint (Plugin React Hooks)](https://www.npmjs.com/package/eslint-plugin-react-hooks) |
-| ESLint (Plugin React Refresh) | ESLint plugin for React Refresh  | [ESLint (Plugin React Refresh)](https://www.npmjs.com/package/eslint-plugin-react-refresh) |
-| Vite                    | Frontend build tool                   | [Vite](https://vitejs.dev/)               |
-| Netlify                 | Web hosting and automation platform  | [Netlify](https://www.netlify.com/)       |
-  
+| Technology                  | Description                             | Link                                                   |
+|-----------------------------|-----------------------------------------|--------------------------------------------------------|
+| Node.js                     | Server-side JavaScript runtime          | [Node.js](https://nodejs.org/)                         |
+| Font Awesome (React)        | Font Awesome for React components      | [Font Awesome (React)](https://fontawesome.com/)       |
+| React                       | JavaScript library for building UIs    | [React](https://reactjs.org/)                          |
+| React DOM                   | React rendering for the DOM            | [React DOM](https://reactjs.org/)                      |
+| React Icons                 | SVG icon library for React             | [React Icons](https://react-icons.github.io/react-icons/) |
+| Semantic UI CSS             | Front-end framework                    | [Semantic UI CSS](https://semantic-ui.com/)            |
+| Semantic UI React           | React integration for Semantic UI      | [Semantic UI React](https://react.semantic-ui.com/)     |
+| SweetAlert2                 | Alert library for JavaScript           | [SweetAlert2](https://sweetalert2.github.io/)          |
+| ESLint                      | JavaScript linter                      | [ESLint](https://eslint.org/)                          |
+| ESLint (Plugin React)       | ESLint plugin for React                | [ESLint (Plugin React)](https://eslint.org/)           |
+| ESLint (Plugin React Hooks) | ESLint plugin for React Hooks          | [ESLint (Plugin React Hooks)](https://www.npmjs.com/package/eslint-plugin-react-hooks) |
+| ESLint (Plugin React Refresh)| ESLint plugin for React Refresh       | [ESLint (Plugin React Refresh)](https://www.npmjs.com/package/eslint-plugin-react-refresh) |
+| axios                       | Promise-based HTTP client for the browser and Node.js | [axios](https://github.com/axios/axios)       |
+| next                        | React framework for static and server-rendered applications | [next](https://nextjs.org/)          |
+| numeral                     | Number formatting library              | [numeral](http://numeraljs.com/)                       |
+| sass                        | CSS extension language                 | [sass](https://sass-lang.com/)                         |
+| shuffle-array               | Array shuffling utility                | [shuffle-array](https://www.npmjs.com/package/shuffle-array) |
+| Yarn                        | Package manager for Node.js projects   | [Yarn](https://yarnpkg.com/)                           |
+| Vercel                      | Cloud platform for serverless deployment | [Vercel](https://vercel.com/)                          |
+
     
 ## 🖥️ Installation 
  yarn install
