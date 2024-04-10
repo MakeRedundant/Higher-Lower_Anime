@@ -9,7 +9,7 @@ const Footer = () => {
         <p>
           © {new Date().getFullYear()}{" "}
           <a href="https://brian-trang-portfolio.netlify.app">Brian Trang</a>. All Rights Reserved •{" "}
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@brian.trang9.com">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=brian.trang9@gmail.com">
             contact@brian.trang9.com
           </a>
         </p>
