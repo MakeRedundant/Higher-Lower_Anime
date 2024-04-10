@@ -22,6 +22,7 @@ export default function Home() {
           content="An anime popularity game!"
         />
         <meta name="Description" content="An anime popularity game!" />
+        <meta lang="en" />
       </Head>
       <Intro />
       <Game />
