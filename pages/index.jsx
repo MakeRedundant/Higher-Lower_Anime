@@ -3,7 +3,6 @@ import Footer from "@components/Footer/Footer";
 import Game from "@components/Game/Game";
 import About from "@components/About/About";
 import Intro from "@components/Intro/Intro";
-//`https://api.jikan.moe/v3/top/anime/${1}/bypopularity`
 
 export default function Home() {
   return (

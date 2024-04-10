@@ -13,7 +13,8 @@ export default function About() {
           <a href="https://myanimelist.net/">MyAnimeList</a>
         </p>
         <p>
-          The top 200 Anime sorted by popularity are fetched from MAL and matched against each other.
+          The top 200 Anime sorted by popularity are fetched from MAL and matched against each other. <br/>
+          Should you take it seriously? Heavens no, enjoy watching what you want
         </p>
         {/* <p>The game will break if you reach a score of 75 ;)</p> */}
       </div>
