@@ -1,8 +1,8 @@
 # Higher or Lower Anime edition
 
 ## 📄 Description 
-Simple Game to guess which anime is more popular
-
+Simple Game to guess which anime is more popular  
+https://higher-lower-anime.vercel.app 
 
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
 ![](https://forthebadge.com/images/badges/uses-html.svg)
