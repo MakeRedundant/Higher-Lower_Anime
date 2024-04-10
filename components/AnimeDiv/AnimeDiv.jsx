@@ -7,7 +7,7 @@ export default function AnimeDiv({ obj, clickCallback, gameover }) {
   return (
     <div className={styles.animeContainer}>
       <div className={styles.clickableRegion} onClick={clickCallback}>
-        <img className={styles.animeImg} src={imageUrl}></img>
+        <img className={styles.animeImg} src={imageUrl} alt="Anime series"></img>
         <p>{obj.title}</p>
         {obj.reveal && (
           <p
