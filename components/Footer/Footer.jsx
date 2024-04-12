@@ -14,18 +14,18 @@ const Footer = () => {
         </p>
         <div id={styles.socialLinks}>
           <a href="https://brian-trang-portfolio.netlify.app/">
-            <img src={imgPath + "/web_icon.svg"} alt="website logo" />
+            <img src="/web_icon.svg" alt="website logo" />
           </a>
           <a href="https://github.com/MakeRedundant">
-            <img src={imgPath + "/github.svg"} alt="github logo" />
+            <img src="/github.svg" alt="github logo" />
           </a>
           <a href="www.linkedin.com/in/brian-trang-developer">
-            <img src={imgPath + "/linkedin.svg"} alt="linkedin logo" />
+            <img src="/linkedin.svg" alt="linkedin logo" />
           </a>
         </div>
         <div className={styles.repo}>
           <a href={projectRepoLink} className={styles.repoAnchor}>
-            <img src={imgPath + "/repo.svg"} alt="git hub link" />
+            <img src="/repo.svg" alt="git hub link" />
             View this project on Github
           </a>
         </div>
