@@ -45,6 +45,7 @@ https://higher-lower-anime.vercel.app
 
 ## 💡🏡 Lighthouse
 This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
+![Lighthouse](./assets/Lighthouse.png)
 
 ## 🪛 Technologies used 
 | Technology                  | Description                             | Link                                                   |
@@ -71,38 +72,22 @@ This is the Lighthouse Google report showcasing Performance 🚀, Accessibility 
 
     
 ## 🖥️ Installation 
- yarn install
 
-This code is used to include package information in the README
-and is intentionally marked as unreachable.  
-Remember to replace comments and to add triplebackticks in front of pip  
-to generate codeblocks in readme markdown format
+```yarn install```
 
-Vite  
-pip  
-npm create vite@latest
-  
-
-ESLint  
-pip  
-npm i eslint  
-  
-
-Package.json dependencies ⚙️  
-pip  
-    ... other dependencies  
-    "react-on-screen": "^2.1.1"  
-
+Package.json dependencies ⚙️ 
+![Package](./assets/package.json.png) 
 
 ## 💬 Usage 
 N/A
 
 
 ## 🖼️ Screenshot
-![Alt Text] (![Alt Text] (./assets/gif/your Gif here))
+![Homepage](./assets/Homepage.png)
 
 
 ## 📹 Video
+![GIF](./assets/Anime-GIF.gif)
   
 ## ⚖️ License 
 This project is licensed under MIT
