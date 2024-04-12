@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className={styles.repo}>
           <a href={projectRepoLink} className={styles.repoAnchor}>
-            <img src={imgPath + "/repo.svg"} />
+            <img src={imgPath + "/repo.svg"} alt="git hub link" />
             View this project on Github
           </a>
         </div>
