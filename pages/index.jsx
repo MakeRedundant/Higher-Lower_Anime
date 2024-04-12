@@ -14,10 +14,6 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://higher-lower-anime.vercel.app/" />
         <meta
-          property="og:image"
-          content="https://higher-lower-anime.vercel.app/imgs/logo.png"
-        />
-        <meta
           property="og:description"
           content="An anime guessing popularity game!"
         />
