@@ -19,7 +19,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="An anime popularity game!"
+          content="An anime guessing popularity game!"
         />
         <meta name="Description" content="An anime popularity game!" />
         <meta lang="en" />
