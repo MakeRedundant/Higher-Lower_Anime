@@ -12,18 +12,18 @@ const Footer = () => {
         <a href="mailto:brian.trang9@gmail.com">contact@brian.trang9.com</a>
       </p>
       <div id={styles.socialLinks}>
-        <a href="https://brian-trang-portfolio.netlify.app/" className={styles.iconLink}>
+        <a href="https://brian-trang-portfolio.netlify.app/" className={styles.iconLink} aria-label="Portfolio">
           <FaGlobe size="2em" color="white" />
         </a>
-        <a href="https://github.com/MakeRedundant" className={styles.iconLink}>
+        <a href="https://github.com/MakeRedundant" className={styles.iconLink} aria-label="Github">
           <FaGithub size="2em" color="white" />
         </a>
-        <a href="https://www.linkedin.com/in/brian-trang-developer" className={styles.iconLink}>
+        <a href="https://www.linkedin.com/in/brian-trang-developer" className={styles.iconLink} aria-label="Linkedin">
           <FaLinkedin size="2em" color="white" />
         </a>
       </div>
       <div className={styles.repo}>
-        <a href={projectRepoLink} className={styles.repoAnchor}>
+        <a href={projectRepoLink} className={styles.repoAnchor} aria-label="Repo link">
           <FaGithub size="3em" color="white" />
           View this project on Github
         </a>
