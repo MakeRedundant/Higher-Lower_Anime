@@ -12,10 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Ichiban" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ichiban.netlify.app/" />
+        <meta property="og:url" content="https://higher-lower-anime.vercel.app/" />
         <meta
           property="og:image"
-          content="https://ichiban.netlify.app/imgs/logo.png"
+          content="https://higher-lower-anime.vercel.app/imgs/logo.png"
         />
         <meta
           property="og:description"
