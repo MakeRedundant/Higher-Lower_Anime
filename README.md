@@ -72,9 +72,10 @@ This is the Lighthouse Google report showcasing Performance 🚀, Accessibility 
 
     
 ## 🖥️ Installation 
-
+Run command to install package depenencies  
 ```yarn install```
 
+  
 Package.json dependencies ⚙️ 
 ![Package](./assets/package.json.png) 
 
