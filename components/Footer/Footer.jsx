@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.scss";
 const Footer = () => {
-  // const imgPath = "https://ajayliu.com/img";
   const projectRepoLink = "https://github.com/MakeRedundant/Higher-Lower_Anime";
   return (
     <>
